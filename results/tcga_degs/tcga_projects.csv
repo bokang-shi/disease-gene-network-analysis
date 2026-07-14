@@ -1,0 +1,34 @@
+tcga_abbreviation,project_id,tumor_source,normal_source,workflow_type,tumor_sample_types,normal_sample_types
+ACC,TCGA-ACC,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+BLCA,TCGA-BLCA,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+BRCA,TCGA-BRCA,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+CESC,TCGA-CESC,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+CHOL,TCGA-CHOL,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+COAD,TCGA-COAD,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+DLBC,TCGA-DLBC,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+ESCA,TCGA-ESCA,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+GBM,TCGA-GBM,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+HNSC,TCGA-HNSC,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+KICH,TCGA-KICH,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+KIRC,TCGA-KIRC,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+KIRP,TCGA-KIRP,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+LAML,TCGA-LAML,GDC,GDC,STAR - Counts,Primary Blood Derived Cancer - Peripheral Blood,Blood Derived Normal
+LGG,TCGA-LGG,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+LIHC,TCGA-LIHC,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+LUAD,TCGA-LUAD,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+LUSC,TCGA-LUSC,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+MESO,TCGA-MESO,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+OV,TCGA-OV,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+PAAD,TCGA-PAAD,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+PCPG,TCGA-PCPG,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+PRAD,TCGA-PRAD,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+READ,TCGA-READ,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+SARC,TCGA-SARC,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+SKCM,TCGA-SKCM,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+STAD,TCGA-STAD,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+TGCT,TCGA-TGCT,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+THCA,TCGA-THCA,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+THYM,TCGA-THYM,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+UCEC,TCGA-UCEC,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+UCS,TCGA-UCS,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal
+UVM,TCGA-UVM,GDC,GDC,STAR - Counts,Primary Tumor,Solid Tissue Normal

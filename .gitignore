@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large/raw data
+data/gdc/
+data/fig2-3/
+*.rds
+*.Rds
+*.parquet
+*.h5
+*.hdf5
+
+# Generated outputs and scratch files
+outputs/
+output/
+tmp/
+*.inspect.ndjson
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

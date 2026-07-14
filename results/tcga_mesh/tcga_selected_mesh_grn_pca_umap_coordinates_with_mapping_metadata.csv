@@ -1,0 +1,42 @@
+mesh_id,PC1,PC2,UMAP1,UMAP2,mesh_descriptor,available_in_zenodo,mapping_type,tcga_abbreviations,tcga_disease_names
+D018268,97.36916,206.39833,3.3684604,9.091857,Adrenocortical Carcinoma,Yes,EXACT,ACC,Adrenocortical Carcinoma
+D002295,94.18505,-39.54627,2.4353547,8.431265,"Carcinoma, Transitional Cell",Yes,COMPOSITE_AND,BLCA,Bladder Urothelial Carcinoma
+D002583,301.3342,-90.61741,0.83301103,9.334436,Uterine Cervical Neoplasms,Yes,COMPOSITE_AND,CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma
+D005909,-232.70091,339.97958,1.038987,10.732515,Glioblastoma,Yes,EXACT,GBM,Glioblastoma Multiforme
+D000077195,68.55513,-63.59909,0.42320102,8.145027,Squamous Cell Carcinoma of Head and Neck,Yes,EXACT,HNSC,Head and Neck Squamous Cell Carcinoma
+D002292,-22.88704,85.48032,2.6106558,8.177616,"Carcinoma, Renal Cell",Yes,EXACT,KICH; KIRC; KIRP,Kidney Chromophobe; Kidney Renal Clear Cell Carcinoma; Kidney Renal Papillary Cell Carcinoma
+D006528,26.524576,-90.26045,2.1323454,7.9360614,"Carcinoma, Hepatocellular",Yes,EXACT,LIHC,Liver Hepatocellular Carcinoma
+D000086002,-40.677975,-74.742836,1.8548694,9.020276,"Mesothelioma, Malignant",Yes,EXACT,MESO,Mesothelioma
+D018284,100.454506,140.0809,1.4716434,7.9047384,"Cystadenocarcinoma, Serous",Yes,COMPOSITE_AND,OV,Ovarian Serous Cystadenocarcinoma
+D021441,254.2192,-21.6924,1.0639759,7.804504,"Carcinoma, Pancreatic Ductal",Yes,EXACT,PAAD,Pancreatic Adenocarcinoma
+D010673,-132.63574,487.0327,3.3282654,10.179431,Pheochromocytoma,Yes,COMPOSITE_OR,PCPG,Pheochromocytoma and Paraganglioma
+D008545,-245.49132,212.50235,2.3834355,10.158613,Melanoma,Yes,COMPOSITE_AND,SKCM,Skin Cutaneous Melanoma
+D013274,310.95673,-148.54027,-0.024560282,9.258055,Stomach Neoplasms,Yes,COMPOSITE_AND,STAD,Stomach Adenocarcinoma
+D000077273,107.08056,76.95298,1.2976726,8.944891,"Thyroid Cancer, Papillary",Yes,EXACT,THCA,Thyroid Carcinoma
+D013945,-333.52563,-23.103634,1.8394483,9.309871,Thymoma,Yes,EXACT,THYM,Thymoma
+D001749,261.49182,-95.85264,0.38884953,8.930931,Urinary Bladder Neoplasms,No,COMPOSITE_AND,BLCA,Bladder Urothelial Carcinoma
+D001943,220.75604,-161.83946,0.6991423,8.92071,Breast Neoplasms,No,COMPOSITE_AND,BRCA,Breast Invasive Carcinoma
+D002277,2.6707275,-114.058655,2.246214,8.856186,Carcinoma,No,COMPOSITE_AND,BRCA; ESCA; UCEC,Breast Invasive Carcinoma; Esophageal Carcinoma; Uterine Corpus Endometrial Carcinoma
+D002294,42.01331,-25.359118,3.027881,8.419762,"Carcinoma, Squamous Cell",No,COMPOSITE_AND,CESC; LUSC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma; Lung Squamous Cell Carcinoma
+D000230,213.76419,-72.717766,1.3117393,8.3258,Adenocarcinoma,No,COMPOSITE_AND,CESC; COAD; PRAD; READ; STAD,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma; Colon Adenocarcinoma; Prostate Adenocarcinoma; Rectum Adenocarcinoma; Stomach Adenocarcinoma
+D018281,150.93788,-199.11218,2.1825144,7.6832337,Cholangiocarcinoma,No,EXACT,CHOL,Cholangiocarcinoma
+D003110,291.61298,-192.91963,-0.2670497,8.787801,Colonic Neoplasms,No,COMPOSITE_AND,COAD,Colon Adenocarcinoma
+D016403,-630.813,-166.0164,2.2108169,9.60249,"Lymphoma, Large B-Cell, Diffuse",No,EXACT,DLBC,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma
+D004938,274.4436,-133.91737,0.11414043,9.758465,Esophageal Neoplasms,No,COMPOSITE_AND,ESCA,Esophageal Carcinoma
+D015470,-1009.8978,-877.04376,2.2745697,9.144267,"Leukemia, Myeloid, Acute",No,EXACT,LAML,Acute Myeloid Leukemia
+D005910,-308.43448,334.15445,1.2192153,10.61101,Glioma,No,BROADER,LGG,Brain Lower Grade Glioma
+D000077192,150.54758,-206.6621,0.58137083,7.7009315,Adenocarcinoma of Lung,No,EXACT,LUAD,Lung Adenocarcinoma
+D008175,191.04047,-156.78148,0.44283137,8.45483,Lung Neoplasms,No,COMPOSITE_AND,LUSC,Lung Squamous Cell Carcinoma
+D010051,115.115585,6.852643,1.2042208,9.432324,Ovarian Neoplasms,No,COMPOSITE_AND,OV,Ovarian Serous Cystadenocarcinoma
+D010235,-154.76904,573.05493,3.020183,9.95466,Paraganglioma,No,COMPOSITE_OR,PCPG,Pheochromocytoma and Paraganglioma
+D011471,270.28192,-56.804184,1.6654043,8.486128,Prostatic Neoplasms,No,COMPOSITE_AND,PRAD,Prostate Adenocarcinoma
+D012004,297.11572,-90.84907,-0.5262394,9.01834,Rectal Neoplasms,No,COMPOSITE_AND,READ,Rectum Adenocarcinoma
+D012983,-372.6598,209.44409,2.8837755,9.469417,Soft Tissue Neoplasms,No,COMPOSITE_AND,SARC,Sarcoma
+D012509,-332.98602,19.805433,2.585092,9.300059,Sarcoma,No,COMPOSITE_AND,SARC,Sarcoma
+D012878,56.08495,-3.1310065,1.7920669,10.095097,Skin Neoplasms,No,COMPOSITE_AND,SKCM,Skin Cutaneous Melanoma
+D013736,49.47047,65.75287,0.7859725,10.084685,Testicular Neoplasms,No,COMPOSITE_AND,TGCT,Testicular Germ Cell Tumors
+D009373,-363.2872,139.86345,1.2406296,9.90501,"Neoplasms, Germ Cell and Embryonal",No,COMPOSITE_AND,TGCT,Testicular Germ Cell Tumors
+D016889,199.78583,-39.602,1.0027276,8.752289,Endometrial Neoplasms,No,COMPOSITE_AND,UCEC,Uterine Corpus Endometrial Carcinoma
+D014594,306.9547,-104.54843,0.46101955,9.513051,Uterine Neoplasms,No,COMPOSITE_AND,UCS,Uterine Carcinosarcoma
+D002296,28.185291,53.296158,2.9846346,9.020281,Carcinosarcoma,No,COMPOSITE_AND,UCS,Uterine Carcinosarcoma
+D000098943,-302.18298,298.6664,2.3277068,10.600668,Uveal Melanoma,No,EXACT,UVM,Uveal Melanoma

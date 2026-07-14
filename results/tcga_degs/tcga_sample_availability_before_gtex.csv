@@ -1,0 +1,34 @@
+TCGA,Cancer Type,Tumour (TCGA),Normal (TCGA),DEG computation status
+ACC,Adrenocortical Carcinoma,79,0,Skipped
+BLCA,Bladder Urothelial Carcinoma,412,19,Computed
+BRCA,Breast Invasive Carcinoma,1111,113,Computed
+CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,304,3,Computed
+CHOL,Cholangiocarcinoma,35,9,Computed
+COAD,Colon Adenocarcinoma,481,41,Computed
+DLBC,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,48,0,Skipped
+ESCA,Esophageal Carcinoma,184,13,Computed
+GBM,Glioblastoma Multiforme,372,5,Computed
+HNSC,Head and Neck Squamous Cell Carcinoma,520,44,Computed
+KICH,Kidney Chromophobe,66,25,Computed
+KIRC,Kidney Renal Clear Cell Carcinoma,541,72,Computed
+KIRP,Kidney Renal Papillary Cell Carcinoma,290,32,Computed
+LAML,Acute Myeloid Leukemia,151,0,Skipped
+LGG,Brain Lower Grade Glioma,516,0,Skipped
+LIHC,Liver Hepatocellular Carcinoma,371,50,Computed
+LUAD,Lung Adenocarcinoma,540,59,Computed
+LUSC,Lung Squamous Cell Carcinoma,511,51,Computed
+MESO,Mesothelioma,87,0,Skipped
+OV,Ovarian Serous Cystadenocarcinoma,426,0,Skipped
+PAAD,Pancreatic Adenocarcinoma,178,4,Computed
+PCPG,Pheochromocytoma and Paraganglioma,179,3,Computed
+PRAD,Prostate Adenocarcinoma,501,52,Computed
+READ,Rectum Adenocarcinoma,166,10,Computed
+SARC,Sarcoma,259,2,Computed
+SKCM,Skin Cutaneous Melanoma,103,1,Skipped
+STAD,Stomach Adenocarcinoma,412,36,Computed
+TGCT,Testicular Germ Cell Tumors,150,0,Skipped
+THCA,Thyroid Carcinoma,505,59,Computed
+THYM,Thymoma,120,2,Computed
+UCEC,Uterine Corpus Endometrial Carcinoma,553,35,Computed
+UCS,Uterine Carcinosarcoma,57,0,Skipped
+UVM,Uveal Melanoma,80,0,Skipped
