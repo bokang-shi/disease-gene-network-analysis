@@ -26,6 +26,8 @@ scripts/
   rank_mesh_grns_fig3_workflow.py
   plot_mesh_grn_pca_umap_fig3_workflow.py
   prepare_tcga_sample_availability_table.py
+  normalize_tcga_gtex_ruvprps_unsupervised.R
+  run_tcga_gtex_ruvprps_all_samples.ps1
   compare_plasmacytoma_grn.py
 
 results/
@@ -53,6 +55,7 @@ Large raw data files are intentionally not committed. This includes GDC RNA-seq 
    - Queried GDC STAR count data with `TCGAbiolinks`.
    - Ran DESeq2 tumor-vs-normal analysis where at least two tumor and two normal samples were available.
    - Completed 23 TCGA cancer projects and skipped 10 with insufficient or unavailable TCGA normal samples.
+   - Added an exploratory PRPS/RUV-III workflow for TCGA+GTEx integrated objects before GTEx-supported DEG analysis.
 
 3. **TCGA-to-disease network mapping**
    - Curated TCGA cancer type mappings to MeSH descriptors.
@@ -100,6 +103,9 @@ install.packages("BiocManager")
 BiocManager::install(c("DESeq2", "TCGAbiolinks", "SummarizedExperiment"))
 ```
 
+For the exploratory TCGA+GTEx PRPS/RUV-III correction workflow, install `RUVprps`
+and `matrixStats` in addition to `SummarizedExperiment`.
+
 Run TCGA DEG analysis:
 
 ```bash
@@ -107,6 +113,15 @@ Rscript scripts/compute_tcga_deseq2.R \
   --projects-csv results/tcga_degs/tcga_projects.csv \
   --output-dir outputs/tcga_degs \
   --gdc-data-dir data/gdc
+```
+
+Apply unsupervised PRPS/RUV-III correction to prepared TCGA+GTEx integrated
+objects:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/run_tcga_gtex_ruvprps_all_samples.ps1 `
+  -InputRoot outputs/tcga_gtex_integration/recount3_objects `
+  -Rscript Rscript
 ```
 
 Convert selected MeSH PubMedBERT scores into Fig. 3-style log1p-CPM GRN matrices:
@@ -147,7 +162,7 @@ python scripts/plot_mesh_grn_pca_umap_fig3_workflow.py \
 
 ## Notes And Limitations
 
-- TCGA DEG analysis currently uses TCGA normal samples only. GTEx integration and batch-effect correction are not implemented here.
+- TCGA DEG outputs in this repository use TCGA normal samples only. The PRPS/RUV-III scripts support exploratory TCGA+GTEx correction, but corrected `.rds` objects and GTEx-supported DEG results are not committed.
 - Large source matrices and raw GDC downloads are omitted to keep the repository lightweight.
 - Some scripts expect external data files from the original context-dependent GRN workflow or Zenodo release.
 - Reports in `reports/` document the analysis decisions and outputs at the time they were generated.
